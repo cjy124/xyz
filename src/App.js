@@ -43,8 +43,8 @@ function App() {
       { ({ values, errors, isSubmitting })=> (
         <Form>
           <CustomTF required name="coyName" label="Company Name" />
-          <div><CustomTF required name="coyAdd" label="Company Address" multiline rows={4}/></div>
-          <div><CustomTF name="coyUen" label="Unique entity number" type="input" as={TextField} /></div>
+          <div><CustomTF required name="coyAdd" label="Company Address" multiline rows={4} /></div>
+          <div><CustomTF name="coyUen" label="Unique entity number" type="input" /></div>
           <div><CustomTF required name="appName" label="Applicant Name" /></div>
           <div><CustomTF required name="appContact" label="Applicant Contact" /></div>
           <div><CustomTF required name="appEmail" label="Applicant Email" /></div>
