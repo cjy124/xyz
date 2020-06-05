@@ -128,7 +128,7 @@ export default function CheckoutPage() {
                       color="primary"
                       className={classes.button}
                     >
-                      {isLastStep ? "Submit" : "Next"}
+                      {isLastStep ? "Submit" : "Continue"}
                     </Button>
                     {isSubmitting && (
                       <CircularProgress
