@@ -1,6 +1,7 @@
 ### Setup of dockerised springboot application for backend
 
 Using Terminal / Command prompt
+
 Step 1: Do a pull from my repo
 "docker pull cjy124/xyz:firsttry"
 
@@ -9,7 +10,7 @@ Step 2: Run the docker container
 
 ### Dependencies npm i
 
-npm i @material-ui/core @material-ui/icons axios formik yup react-router-dom
+Using terminal go to xyz folder and do a "npm install"
 
 ### `npm start`
 
