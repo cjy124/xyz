@@ -1,6 +1,10 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 
+/*
+ * Page will be displayed after successful submission
+ */
+
 function SubmitSuccess() {
   return (
     <React.Fragment>

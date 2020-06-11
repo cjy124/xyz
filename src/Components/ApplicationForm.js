@@ -3,6 +3,11 @@ import { Grid, Typography, TextField } from "@material-ui/core";
 import { Field } from "formik";
 import CustomTF from "./CustomTF";
 
+/*
+ * Application form Component, consists of various input form fields
+ * which uses CustomTF to generate customised error msg on error.
+ */
+
 export default function ApplicationForm(props) {
   const {
     formField: {
@@ -29,23 +34,13 @@ export default function ApplicationForm(props) {
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={coyName.name}
-            label={coyName.label}
-            fullWidth
-          />
+          <CustomTF name={coyName.name} label={coyName.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF name={coyUen.name} label={coyUen.label} fullWidth />
+          <CustomTF name={coyUen.name} label={coyUen.label} />
         </Grid>
         <Grid item xs={12}>
-          <CustomTF
-            required
-            name={coyAdd.name}
-            label={coyAdd.label}
-            fullWidth
-          />
+          <CustomTF name={coyAdd.name} label={coyAdd.label} />
         </Grid>
       </Grid>
       <br></br>
@@ -55,28 +50,13 @@ export default function ApplicationForm(props) {
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={appName.name}
-            label={appName.label}
-            fullWidth
-          />
+          <CustomTF name={appName.name} label={appName.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={appContact.name}
-            label={appContact.label}
-            fullWidth
-          />
+          <CustomTF name={appContact.name} label={appContact.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={appEmail.name}
-            label={appEmail.label}
-            fullWidth
-          />
+          <CustomTF name={appEmail.name} label={appEmail.label} />
         </Grid>
       </Grid>
       <br></br>
@@ -86,12 +66,7 @@ export default function ApplicationForm(props) {
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={empName.name}
-            label={empName.label}
-            fullWidth
-          />
+          <CustomTF name={empName.name} label={empName.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Field
@@ -103,23 +78,13 @@ export default function ApplicationForm(props) {
           />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF required name={empPP.name} label={empPP.label} fullWidth />
+          <CustomTF name={empPP.name} label={empPP.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={empOrigin.name}
-            label={empOrigin.label}
-            fullWidth
-          />
+          <CustomTF name={empOrigin.name} label={empOrigin.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <CustomTF
-            required
-            name={empDest.name}
-            label={empDest.label}
-            fullWidth
-          />
+          <CustomTF name={empDest.name} label={empDest.label} />
         </Grid>
         <Grid item xs={12} sm={6}>
           <Field

@@ -2,6 +2,12 @@ import * as Yup from "yup";
 import checkoutFormData from "./checkoutFormData";
 import { validateUEN } from "./validateUEN";
 
+/*
+ * All the validation schemas for the various steps will be stored here
+ * Utilises Yup as Formik has a convenient config to incorp yup object schemas
+ * for validation.
+ */
+
 const {
   formField: {
     coyName,

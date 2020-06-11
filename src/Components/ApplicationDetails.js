@@ -2,6 +2,10 @@ import React from "react";
 import { Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
+/*
+ * Takes in and display values of input fields in application form
+ */
+
 const useStyles = makeStyles((theme) => ({
   title: {
     marginTop: theme.spacing(2),

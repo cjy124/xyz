@@ -1,70 +1,57 @@
 export default {
-  formId: "checkoutPage",
+  formId: "mainPage",
   formField: {
     coyName: {
       name: "coyName",
-      label: "Company Name",
-      errorTxt: "Required",
+      label: "Company Name*",
     },
     coyAdd: {
       name: "coyAdd",
-      label: "Company Address",
-      errorTxt: "Required",
+      label: "Company Address*",
     },
     coyUen: {
       name: "coyUen",
       label: "Unique entity number",
-      errorTxt: "Invalid UEN format",
     },
     appName: {
       name: "appName",
-      label: "Applicant Name",
-      errorTxt: "Required",
+      label: "Applicant Name*",
     },
     appContact: {
-      name: "appContact",
-      label: "Applicant Contact",
-      errorTxt: "Required",
+      name: "appContact*",
+      label: "Applicant Contact*",
     },
     appEmail: {
       name: "appEmail",
-      label: "Applicant Email",
-      errorTxt: "Required",
+      label: "Applicant Email*",
     },
     empName: {
       name: "empName",
-      label: "Employee Name",
-      errorTxt: "Required",
+      label: "Employee Name*",
     },
     empIC: {
       name: "empIC",
       label: "NRIC/FIN",
-      errorTxt: "",
     },
     empPP: {
       name: "empPP",
-      label: "Passport No.",
-      errorTxt: "Required",
+      label: "Passport No.*",
     },
     empOrigin: {
       name: "empOrigin",
-      label: "Country of Origin",
-      errorTxt: "Required",
+      label: "Country of Origin*",
     },
     empDest: {
       name: "empDest",
-      label: "Country of Destination",
-      errorTxt: "Required",
+      label: "Country of Destination*",
     },
     empTStart: {
       name: "empTStart",
       label: "Travel Start Date",
-      errorTxt: "",
     },
     empTEnd: {
       name: "empTEnd",
       label: "Travel End Date",
-      errorTxt: "",
     },
   },
 };
