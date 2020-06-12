@@ -109,9 +109,8 @@ export default function MainPage() {
       .catch(() => {
         alert("FAIL");
       });
-    // await sleep(1000);
     // console.log(JSON.stringify(values, null, 2));
-    alert(JSON.stringify(values, null, 2));
+    // alert(JSON.stringify(values, null, 2));
     actions.setSubmitting(false);
   }
 
