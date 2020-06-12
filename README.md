@@ -1,3 +1,5 @@
+The assignment consists of front end, done using react js and a back end spring boot application, for the storage of application(s).
+
 ### Setup of dockerised springboot application for backend
 
 Using Terminal / Command prompt
