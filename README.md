@@ -8,6 +8,8 @@ Step 1: Do a pull from my repo
 Step 2: Run the docker container
 "docker run -it -p8080:8080 cjy124/xyz:firsttry"
 
+Source can be cloned from https://github.com/cjy124/xyz_be.git
+
 ### Dependencies npm i
 
 Using terminal go to xyz folder and do a "npm install"
