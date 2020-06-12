@@ -12,11 +12,16 @@ Step 2: Run the docker container
 
 Source can be cloned from https://github.com/cjy124/xyz_be.git
 
-### Dependencies npm i
+### Setup of react js application for frontend
+
+Step 1: Do a clone from my repo
+"git clone https://github.com/cjy124/xyz.git"
+
+#### Dependencies npm i
 
 Using terminal go to xyz folder and do a "npm install"
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
