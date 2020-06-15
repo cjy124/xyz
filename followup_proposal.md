@@ -18,11 +18,11 @@
 
 ##### Advantages
 1. QRcode provides for a quick and astehtically pleasing way ot storing information
-...Has good fault tolerance
-...Familarity of use
+	- Has good fault tolerance
+	- Familarity of use
 2. Familarity of check-in process
-...Ease of use for both the personnel doing the validation, and the one checking-in
-...Faster checking-in process
+	- Ease of use for both the personnel doing the validation, and the one checking-in
+	- Faster checking-in process
 
 ##### Limitations
 1. Applicaitons needs a registered email
@@ -30,10 +30,10 @@
 
 ##### Technical implementation of proposed solution
 1. Backend application will be running on Spring Boot framework
-...spring-boot-starter-mail to send itinerary to recipient's email
-...Java UUID to generate unique random key for each application
-...zxing library to generate qrcode based on unique key of each application
+	- spring-boot-starter-mail to send itinerary to recipient's email
+	- Java UUID to generate unique random key for each application
+	- zxing library to generate qrcode based on unique key of each application
 2. Frontend applicaiton developed with Reactjs
-...react-qr-reader to open device native camera to capture and get text from QRcode
+	- react-qr-reader to open device native camera to capture and get text from QRcode
 3. Backend api to return validation result
-...DAO to retrieve application details from database
+	- DAO to retrieve application details from database
