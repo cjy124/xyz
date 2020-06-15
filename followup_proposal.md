@@ -7,14 +7,14 @@
 
 ##### Proposed solution to key requirements
 1. Itinerary will be delivered to the email registered during the application
-...QRcode to be included in the itinerary
+	- QRcode to be included in the itinerary
 2. Recipient will have the QRcode scanned at point of interest, and validated with a backend application
-...Backend application will validate the QRcode against the generated unique key stored in database upon approval of application
-...If QRcode is not registered in the database, it will be deemed as a fraud
-...Backend application will return the application details, and personnel at point of interest to verify
-...After verification, personnel at point of interest will confirm and backend application will update validity of QRcode to used
+	- Backend application will validate the QRcode against the generated unique key stored in database upon approval of application
+	- If QRcode is not registered in the database, it will be deemed as a fraud
+	- Backend application will return the application details, and personnel at point of interest to verify
+	- After verification, personnel at point of interest will confirm and backend application will update validity of QRcode to used
 3. Application details will be presented after validation with a backend application
-...Details of the application will be pulled from the database
+	- Details of the application will be pulled from the database
 
 ##### Advantages
 1. QRcode provides for a quick and astehtically pleasing way ot storing information
