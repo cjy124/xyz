@@ -1,11 +1,11 @@
 # Confirmation Validation Proposal
 
-##### Keys requirements
+#### Keys requirements
 1. Delivered to recipient in digital format astehtically and easily validated
 2. Confirmation's integrity and indicator of validity
 3. Details of bookings presented after validation
 
-##### Proposed solution to key requirements
+#### Proposed solution to key requirements
 1. Itinerary will be delivered to the email registered during the application
 	- QRcode to be included in the itinerary
 2. Recipient will have the QRcode scanned at point of interest, and validated with a backend application
@@ -16,7 +16,7 @@
 3. Application details will be presented after validation with a backend application
 	- Details of the application will be pulled from the database
 
-##### Advantages
+#### Advantages
 1. QRcode provides for a quick and astehtically pleasing way ot storing information
 	- Has good fault tolerance
 	- Familarity of use
@@ -24,11 +24,11 @@
 	- Ease of use for both the personnel doing the validation, and the one checking-in
 	- Faster checking-in process
 
-##### Limitations
+#### Limitations
 1. Applicaitons needs a registered email
 2. Point of check-in needs a camera to scan QRcode
 
-##### Technical implementation of proposed solution
+#### Technical implementation of proposed solution
 1. Backend application will be running on Spring Boot framework
 	- spring-boot-starter-mail to send itinerary to recipient's email
 	- Java UUID to generate unique random key for each application
