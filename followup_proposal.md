@@ -17,16 +17,16 @@
 	- Details of the application will be pulled from the database
 
 #### Advantages
-1. QRcode provides for a quick and aesthetically pleasing way ot storing information
+1. QRcode provides for a quick and aesthetically pleasing way of storing information
 	- Has good fault tolerance
 	- Familiarity of use
 2. Familiarity of check-in process
 	- Ease of use for both the personnel doing the validation, and the one checking-in
 	- Faster checking-in process
 
-#### Limitations
-1. Applications needs a registered email
-2. Point of check-in needs a camera to scan QRcode
+#### Limitations / Assumptions
+1. Applications have registered email
+2. Point of check-in has camera to scan QRcode
 
 #### Technical implementation of proposed solution
 1. Backend application will be running on Spring Boot framework
